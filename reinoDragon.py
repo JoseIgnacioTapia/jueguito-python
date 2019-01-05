@@ -46,3 +46,4 @@ while newGame == "s":
 
     newGame = input("Quieres jugar de nuevo?")
 
+print('GAME OVER')
