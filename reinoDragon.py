@@ -3,14 +3,13 @@ import time
 
 
 def introduccion():
-    print("Estamos en una tierra llena de dragones.Delante de nuestro,")
-    print("se ven dos cuevas. En una cueva, el dragon amigable")
-    print("y compartira el tesoro contigo. El otro dragon")
-    print("es codicioso y hambriento, y te va a comer ni bien te vea.")
+    print("Estamos en una tierra llena de dragones.Delante de nuestro,\nse ven dos cuevas. En una cueva, el dragon amigable")
+    print("y compartira el tesoro contigo. El otro dragon \nes codicioso y hambriento, y te va a comer ni bien te vea.")
     print("")
 
 
 def cambiarCueva():
+    introduccion()
     cueva = ""
     while cueva != "1" and cueva != "2":
         print("Ha que cueva quieres entrar 1 o 2?")
